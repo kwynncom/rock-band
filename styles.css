@@ -1,10 +1,29 @@
+/* Kwynn 1 2020/09/30 5:37pm */
+
+
+.bioBannerReveal {
+	width: 1200px;
+}
+
+.expanderBioReveal {
+	left: 1150px;
+	transform: none;
+	width: 40px;
+	border-left: 40px solid #fff";
+	box-shadow: -40px 0 0 #2a398a
+}
+
+.bioRevealText {
+	display: inline-block;
+}
+/* end Kwynn */
+
 body {
   margin: 0;
   background-color: darkgray;
 }
 
 #bioBanner {
-  width: 700px;
   height: 300px;
   background-color: black;
   position: relative;
@@ -19,7 +38,7 @@ body {
   display: inline-block;
   position: absolute;
   z-index: 2;
-  left: 690px;
+  left: 1150px; /* Kwynn from 690px */
   width: 50px;
   height: 300px;
   border-left: 50px solid #fff;
